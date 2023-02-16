@@ -1,0 +1,131 @@
+body {
+    font-family: sans-serif;
+	font-size: 100%;
+	margin-left: 50px;
+	margin-right: 50px;
+	background-color: antiquewhite;
+	max-width: 100%;
+	min-width: 80%;	
+}
+a{
+	text-decoration: none;
+}
+ol, ul {
+	list-style: none;
+}
+
+*, *::before, *::after {
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.flex {
+	display: flex;
+}
+.between {
+    justify-content: space-between;
+}
+
+header {
+	box-shadow: 1px 2px 20px #333;
+	background-color: white;
+}
+.header-container {
+    padding: 8px 48px;
+    max-width: 1440px;
+    margin: 0 auto; 
+    display: block;
+}
+
+.logo img{
+	width: 200px;
+}
+
+.loja-bt button {
+	padding: 8px 34px;
+	line-height: 24px;
+	color: #333;
+	background-color: transparent;
+	border: 1px solid #333;
+}
+
+.loja-bt button:hover {
+	color: black; 
+    cursor: pointer;
+}
+
+button.bt-menu{
+	display: none;
+}
+article{
+	display: flex;
+	gap: 15%;
+	margin: auto 0;
+}
+#dica1{
+	width: 300px;
+	box-shadow: 1px 2px 5px #333;
+	height: 300px;
+	padding: 10px;
+	margin-top: 30px;
+	background-image: url(/img/limp5.jpg);
+	color: #333;
+	
+}
+#dica2{
+	width: 300px;
+	box-shadow: 1px 2px 5px #333;
+	height: 300px;
+	padding: 10px;
+	margin-top: 30px;
+	background-image: url(/img/limp6.jpg);
+	color: #333;
+}
+#dica3 {
+	width: 300px;
+	box-shadow: 1px 2px 5px #333;
+	height: 300px;
+	padding: 10px;
+	margin-top: 30px;
+	background-image: url(/img/limp1.jpg);
+	color: #333;
+}
+
+#dica1, #dica2, #dica3 {
+	border-radius: 25px;
+}
+
+#dica1:hover, #dica2:hover, #dica3:hover{
+	transition: transform 0.5s;
+	transform: scale(1.1);
+	cursor: pointer;
+	  
+}
+
+#dicas1 h2 {
+	padding: 10px;
+}
+
+#dica1 p, #dica3 p {
+	text-align: center;
+	margin-top: 100px;
+	color: black;
+}
+#dica2 p {
+	text-align: center;
+	color:black;
+	margin-top: 70px;
+}
+#dica1 a, #dica2 a, #dica3 a{
+	color: #333;
+	text-decoration: none;
+}
+
+footer {
+    text-align: center;
+    height: 30px;
+    bottom: 10px;
+    position: fixed;
+    width: 90%;
+
+}
